@@ -93,16 +93,136 @@
 # print(f"Down payment: ${down_payment}")
 
 #Logical Operators
+# has_high_income = True
+# has_good_credit = True
+# has_criminal_record = False
+#
+# if has_good_credit and not has_criminal_record:
+#     print("Eligble for loan")
 
+#Comparison Operators
+# temperature = 30
+# if temperature != 30:
+#     print("It's a hot day")
+# else:
+#     print("It's not a hot day")
+# name = input("Your name: ")
+# length = len(name)
+# if length < 3:
+#     print("name must be at lease 3 characters")
+# elif length > 50:
+#     print("name can be a maximum of 50 characters")
+# else:
+#     print("name looks good")
 
+#Project: Weight Converter
+# weight = input('Weight: ')
+# unit = input('(L)bs or (K)g: ')
+# if unit.lower() == 'l':
+#     print(f'You are {int(weight) * 0.45} kilos')
+# else:
+#     print(f'You are {int(weight) / 0.45} pounds')
 
+#While Loops
+# i = 1
+# while i <= 5:
+#     print('*'* i)
+#     i = i + 1
+# print("Done")
 
+#Guessing Game
+# guess_count = 1
+# guess_limit = 3
+# while guess_count <= guess_limit:
+#     input_number = int(input('Guess: '))
+#     guess_count += 1
+#     if input_number == 9:
+#         print('You win!')
+#         break
+# else:
+#     print("You have failed")
 
+#Car Game
+# started = False
+# stopped = False
+# while True:
+#     command = input('> ').lower()
+#     if command == 'help':
+#         print('''
+#         start - to start the car
+#         stop - to stop the car
+#         quit - to quit
+#         ''')
+#     elif command == 'start':
+#         if not started:
+#             started = True
+#             print('Car started...Ready to go!')
+#         else:
+#             print('Car has already started!')
+#     elif command == 'stop':
+#         if not stopped:
+#             stopped = True
+#             print('Car stopped.')
+#         else:
+#             print('Car has already stopped')
+#     elif command == 'quit':
+#         print('Exit')
+#         break
+#     else:
+#         print("I don't understand that...")
 
+#For Loops
+# prices = [10, 20, 30]
+# total_cost = 0
+# for price in prices:
+#     total_cost += price
+# print(total_cost)
 
+#Nested Loops
+# for x in range(4):
+#     for y in range(3):
+#         print(f'({x}, {y})')
 
+#Challenge
+# numbers = [2, 2, 2, 2, 5]
+# for x_count in numbers:
+#     output = ''
+#     for count in range(x_count):
+#         output += 'x'
+#     print(output)
 
+#Lists
+# names = ['John', 'Bob', 'Mosh', 'Sarah']
+# names[0] = 'Jon'
+# print(names)
 
+#Exercise
+# numbers = [3, 6, 2, 8, 4, 10]
+# max = 0
+# for num in numbers:
+#     if num > max:
+#         max = num
+# print(max)
+
+#2D Lists
+# matrix = [[1, 2, 3], [4, 5, 6]]
+# for row in matrix:
+#     for item in row:
+#         print(item)
+
+#List Methods
+# numbers = [5, 2, 1, 7, 4, 5]
+# numbers2 = numbers.copy()
+# print(numbers.append(20))
+# print(numbers2)
+
+#Exercise
+# numbers = [5, 2, 1, 7, 4, 5, 2, 2]
+# uniques = []
+# for number in numbers:
+#     if number not in uniques:
+#         uniques.append(number)
+# print(uniques)
 
 
 
