@@ -224,6 +224,87 @@
 #         uniques.append(number)
 # print(uniques)
 
+#Tuples
+#immutable
+# numbers = (1, 2, 3)
+# print(numbers[0])
+
+#Unpacking
+# coordinates = [1, 2, 3]
+# x, y, z = coordinates
+# print(y)
+
+#Dictionaries
+#key value pairs
+# customer = {
+#     "name": "John",
+#     "age": 30,
+#     "is_verified": True
+# }
+# customer["birthdate"] = "Jan 1 1980"
+# print(customer.get("birthdate"))
+
+#Exercise
+# digits_mapping = {
+#     "1": "One",
+#     "2": "Two",
+#     "3": "Three",
+#     "4": "Four"
+# }
+# input_phone = input("Phone: ")
+# output = ""
+# for ch in input_phone:
+#     output += digits_mapping.get(ch, "!") + " "
+# print(output)
+
+#Emoji Converter
+
+# def emoji_converter(message):
+#     words = message.split(' ')
+#     emojis = {
+#         ":)": "😃",
+#         ":(": "😞"
+#     }
+#     output = ""
+#     for word in words:
+#         output += emojis.get(word, word) + " "
+#     return output
+# print(emoji_converter("Good morning :)"))
+
+
+#Functions
+#Parameters
+#Keyword Arguments
+# def greet_user(first_name, last_name):
+#     print(f"Hi {first_name} {last_name}")
+#     print("Welcome aborad")
+#
+#
+# print("Start")
+# greet_user("Tina", "Wang")
+# print("Finish")
+
+#Return Statements
+# def square(number):
+#     return number * number
+#
+# result = square(3)
+# print(result)
+
+#Exceptions
+# try:
+#     age = int(input("Age: "))
+#     income = 20000
+#     risk = income / age
+#     print(age)
+# except ZeroDivisionError:
+#     print('Age cannot be 0')
+# except ValueError:
+#     print('Invalid value')
+
+#Classess
+
+
 
 
 
